@@ -1,0 +1,26 @@
+1. Computer Science
+
+
+2. body_text != [], exist related work section
+
+
+3. histogram on citation numbers of body text / related work section, citation number > n (in corpus)
+
+
+4. has pdf parse
+
+
+5. Only citation span at the end of a sentence
+
+paper_id				string
+title 				string
+full_text 				string	（for part 1)
+abstract				string	  (for part 1) (optional)	
+related_work_section 		string	  (for test)	
+body text citation			list[dic{paperid: sentence}]	(for part 2)
+related work section citation		list[dic{paperid: sentence}]	(for part 2)
+
+definition: full text = body text (no abstract) + related work section
+
+algorithm: sentence split
+
